@@ -1,0 +1,39 @@
+body {
+   font-family: Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   margin: 0;
+   background-color: #282c34; /* Cor de fundo aproximada */
+   color: #333;
+}
+
+/* Outros estilos do body, se houver, mantenha-os */
+.container {
+    background-color: #3a3f47; /* Um cinza um pouco mais claro que o fundo */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Mantenha outros estilos do container */
+}
+
+h1 {
+    /* Outros estilos do seu h1 (mantenha os que já tinha) */
+    color: transparent; /* Texto transparente para mostrar o gradiente no fundo */
+    background: linear-gradient(90deg, #007bff, #00bfff, #ffb6c1, #ffc0cb, #ffa07a); /* Gradiente ajustado */
+    -webkit-background-clip: text; /* Faz o fundo do gradiente se limitar ao formato do texto */
+    background-clip: text; /* Versão padrão para outros navegadores */
+    font-size: 3.5em;
+    margin-bottom: 20px; /* Mantenha ou ajuste a margem inferior */
+    text-align: center; /* Mantenha ou ajuste o alinhamento do texto */
+}
+
+#tempoDecorrido {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #007bff;
+    word-break: break-word; /* Para quebrar linhas em telas menores */
+    padding: 10px;
+}
